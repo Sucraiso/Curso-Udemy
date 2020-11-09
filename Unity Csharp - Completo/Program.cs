@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using Unity_Csharp___Completo.ExemploEnum;
 
 namespace Unity_Csharp___Completo
 {
@@ -80,9 +81,8 @@ namespace Unity_Csharp___Completo
 
             //Matriz_Exercicio.Exercicio();
 
-          
-
-            
+            Main entities = new Main();
+            entities.Starter();
         }
     }
 }
