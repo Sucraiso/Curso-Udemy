@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using Unity_Csharp___Completo.ExemploEnum;
+using Unity_Csharp___Completo.ExemploStringBuilder;
+using Unity_Csharp___Completo.ExercicioComposicao;
 
 namespace Unity_Csharp___Completo
 {
@@ -81,8 +83,15 @@ namespace Unity_Csharp___Completo
 
             //Matriz_Exercicio.Exercicio();
 
-            Main entities = new Main();
-            entities.Starter();
+            //Main entities = new Main();
+            //entities.Starter();
+
+            //MainStringBuilder stringbuilder = new MainStringBuilder();
+            //stringbuilder.Starter();
+
+            MainExercicioComposicao compo = new MainExercicioComposicao();
+            compo.Exercicio();
+            
         }
     }
 }
