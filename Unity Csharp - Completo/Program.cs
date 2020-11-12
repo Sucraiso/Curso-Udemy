@@ -97,8 +97,8 @@ namespace Unity_Csharp___Completo
             //Hierarquia hierex = new Hierarquia();
             //hierex.Exercicio();
 
-            MainHiearquia hierExerc = new MainHiearquia();
-            hierExerc.Exercicio();
+            //MainHiearquia hierExerc = new MainHiearquia();
+            //hierExerc.Exercicio();
         }
     }
 }
