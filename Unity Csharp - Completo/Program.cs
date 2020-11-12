@@ -3,6 +3,8 @@ using System.Globalization;
 using Unity_Csharp___Completo.ExemploEnum;
 using Unity_Csharp___Completo.ExemploStringBuilder;
 using Unity_Csharp___Completo.ExercicioComposicao;
+using Unity_Csharp___Completo.ExemploHierarquia;
+using Unity_Csharp___Completo.ExercicioHierarquia;
 
 namespace Unity_Csharp___Completo
 {
@@ -89,9 +91,14 @@ namespace Unity_Csharp___Completo
             //MainStringBuilder stringbuilder = new MainStringBuilder();
             //stringbuilder.Starter();
 
-            MainExercicioComposicao compo = new MainExercicioComposicao();
-            compo.Exercicio();
-            
+            //MainExercicioComposicao compo = new MainExercicioComposicao();
+            //compo.Exercicio();
+
+            //Hierarquia hierex = new Hierarquia();
+            //hierex.Exercicio();
+
+            MainHiearquia hierExerc = new MainHiearquia();
+            hierExerc.Exercicio();
         }
     }
 }
