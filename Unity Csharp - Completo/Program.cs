@@ -5,6 +5,8 @@ using Unity_Csharp___Completo.ExemploStringBuilder;
 using Unity_Csharp___Completo.ExercicioComposicao;
 using Unity_Csharp___Completo.ExemploHierarquia;
 using Unity_Csharp___Completo.ExercicioHierarquia;
+using Unity_Csharp___Completo.ExemploAbstract;
+using Unity_Csharp___Completo.ExercicioAbstract;
 
 namespace Unity_Csharp___Completo
 {
@@ -99,6 +101,12 @@ namespace Unity_Csharp___Completo
 
             //MainHiearquia hierExerc = new MainHiearquia();
             //hierExerc.Exercicio();
+
+            //MainExemploAbstract exab = new MainExemploAbstract();
+            //exab.Exercicio();
+
+            MainExercicioAbstract exab = new MainExercicioAbstract();
+            exab.Exercicio();
         }
     }
 }
