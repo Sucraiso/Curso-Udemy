@@ -7,6 +7,8 @@ using Unity_Csharp___Completo.ExemploHierarquia;
 using Unity_Csharp___Completo.ExercicioHierarquia;
 using Unity_Csharp___Completo.ExemploAbstract;
 using Unity_Csharp___Completo.ExercicioAbstract;
+using Unity_Csharp___Completo.ExemploException;
+using Unity_Csharp___Completo.ExercicioException;
 
 namespace Unity_Csharp___Completo
 {
@@ -105,8 +107,14 @@ namespace Unity_Csharp___Completo
             //MainExemploAbstract exab = new MainExemploAbstract();
             //exab.Exercicio();
 
-            MainExercicioAbstract exab = new MainExercicioAbstract();
-            exab.Exercicio();
+            //MainExercicioAbstract exab = new MainExercicioAbstract();
+            //exab.Exercicio();
+
+            //MainExemploException exep = new MainExemploException();
+            //exep.Exercicio();
+
+            MainExercicioException exep = new MainExercicioException();
+            exep.Exercicio();
         }
     }
 }
