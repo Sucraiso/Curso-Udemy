@@ -6,4 +6,8 @@
     <RootNamespace>Unity_Csharp___Completo</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ExercicioFiles\out\" />
+  </ItemGroup>
+
 </Project>

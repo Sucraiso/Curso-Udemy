@@ -9,6 +9,7 @@ using Unity_Csharp___Completo.ExemploAbstract;
 using Unity_Csharp___Completo.ExercicioAbstract;
 using Unity_Csharp___Completo.ExemploException;
 using Unity_Csharp___Completo.ExercicioException;
+using Unity_Csharp___Completo.ExercicioFiles;
 
 namespace Unity_Csharp___Completo
 {
@@ -113,7 +114,10 @@ namespace Unity_Csharp___Completo
             //MainExemploException exep = new MainExemploException();
             //exep.Exercicio();
 
-            MainExercicioException exep = new MainExercicioException();
+            //MainExercicioException exep = new MainExercicioException();
+            //exep.Exercicio();
+
+            MainExercicioFiles exep = new MainExercicioFiles();
             exep.Exercicio();
         }
     }
