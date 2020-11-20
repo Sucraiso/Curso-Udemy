@@ -12,6 +12,9 @@ using Unity_Csharp___Completo.ExercicioException;
 using Unity_Csharp___Completo.ExercicioFiles;
 using Unity_Csharp___Completo.ExemploSemInterface;
 using Unity_Csharp___Completo.ExercicioInterface;
+using Unity_Csharp___Completo.ExemploSet;
+using Unity_Csharp___Completo.ExercicioSet;
+using Unity_Csharp___Completo.ExercicioDictionary;
 
 
 namespace Unity_Csharp___Completo
@@ -128,6 +131,15 @@ namespace Unity_Csharp___Completo
 
             //MainExercicioInterface exep = new MainExercicioInterface();
             //exep.Exercicio();
+
+            //MainExemploSet exep = new MainExemploSet();
+            //exep.Exercicio();
+
+            //MainExercicioSet exep = new MainExercicioSet();
+            //exep.Exercicio();
+
+            MainExercicioDictionary exep = new MainExercicioDictionary();
+            exep.Exercicio();
         }
     }
 }
